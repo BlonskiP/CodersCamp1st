@@ -1,3 +1,49 @@
-﻿body{
-	background:black;
-	color:white;}
+﻿body {
+	background: #2C3033;
+}
+
+h1 {
+	color: #FD7A32
+}
+
+p {
+	color: #BDBDBD
+}
+
+
+
+
+/*Gallery*/
+
+
+/*
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
+
+.arch {
+
+}
+/*
+.ax {
+	
+}
+
+.helm {
+	
+}
+
+.horn {
+	
+}
+
+.shield {
+	
+}
+
+.sword {
+	
+} */
