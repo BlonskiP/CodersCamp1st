@@ -1,1 +1,1 @@
-CodersCamp1st
+Sprawdücie pdf z wytycznymi. Mockup w folderze mockup ;0
