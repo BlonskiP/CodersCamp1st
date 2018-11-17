@@ -1,0 +1,107 @@
+footer  {
+    margin-inline-start: 300px;
+    background-color: white;
+    margin-top: 20px;
+}
+#map {
+    height: 450px;
+    width: 100%;
+    }
+h1 {
+    color: orange; 
+}
+.grid-container  {
+    float: left;
+    display: grid;  
+    grid-gap: 30px;
+    
+}       
+.hh {
+    float: left;
+    margin-inline-start: 400px;
+    margin-inline-end: 650px;
+}
+i {
+    margin: 4px;
+    float: left;
+    color: white;
+}
+p {
+    float: left;
+    margin-inline-end: 800px;
+    color: white;
+
+}
+body {
+    background-color: rgb(12, 12, 14);
+}
+h3 {
+    color: white;
+    text-align: center;
+    line-height: 3;
+    margin-bottom: 300px;
+}
+.grid-item1 {
+    border-style:solid;
+    border-color: white;
+    color: rgba(192, 189, 189, 0.815);
+
+}
+.grid-item1:focus {
+    content: " ";
+    position: absolute;
+
+
+}
+.grid-item2 {
+    border-style: solid;
+    border-color: white;
+   color: rgba(192, 189, 189, 0.815);
+  
+}
+.grid-item3 {
+    border-style: solid;
+    border-color: white;
+   color: rgba(192, 189, 189, 0.815);
+}
+.grid-item4 {
+    border-style: solid;
+    border-color: white;
+    color: rgba(192, 189, 189, 0.815);
+}
+.grid-item5 {
+    border-style: solid;
+    border-color: white;
+    color: rgba(192, 189, 189, 0.815);
+    
+}
+.grid-item6 {
+    border-style: solid;
+    border-color: white;
+    padding: 70px 190px;
+    overflow: auto;
+     
+    color: rgba(192, 189, 189, 0.815);
+}
+.grid-item7 {
+    border-style: solid;
+    border-color: white;
+    color: rgba(34, 30, 30, 0.815);
+    text-align: center;
+    background-color: white;
+    padding: 13px 0px;
+}
+.grid-item7:active {
+    content: " ";
+    position: absolute;
+    }
+
+.grid-item6 p {
+position: absolute;
+top: 270px;
+right: -370px;
+color: rgba(192, 189, 189, 0.815);
+}
+form {
+    display: grid;
+}
