@@ -1,5 +1,6 @@
 ﻿body {
 	background: rgb(24, 24, 24);
+	margin:auto;
 }
 
 h1 {
@@ -12,16 +13,127 @@ p {
 
 /*MENU*/
 
+#menu {
+	height: 84px;
+	width:100%;
+	background-color: #181818;
+	/* background-color:black; */
+	align-items: center;
+    justify-content: space-between;
+	display: flex;
+}
+
+.logo {
+	background-image: url("img/Menu/logo.png");
+	width: 200px;
+    height: 25px;
+    background-repeat: no-repeat;
+	float: left;
+	margin-left:40px;
+}
+.content {
+	color:white;
+	display: flex;
+	margin-right: 20px;
+}	
+
+.content-element {
+	padding: 10px;
+	cursor: pointer;
+	transition:2s;
+	font-size: 20px;
+}
+
+.content-element:hover {
+	color:#ff8932;
+	transition:2s;
+}
 
 
 /*ABOUT*/
 
+#about {
+	height: 1140px;
+	background-color:#2b2b2b;
+}
+
+.header {
+	height: 476px;
+	background-color:#2b2b2b;
+	width:100%;
+}
+
+.header-title {
+	height: 100%;
+	width:50%;
+	background-color:#2b2b2b;
+	color:#ff8932;
+	float:left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    line-height: 70px;
+}
+
+.header-photo {
+	height: 100%;
+	width: 50%;
+	background-color:pink;
+	float:left;
+	background-image: url("img/Menu/autumn.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.eventContainer {
+	height: 662px;
+	background-color: white;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff8932 35%, transparent 25%) -50px 0, linear-gradient(225deg, #ff8932 35%, transparent 25%) -50px 0, linear-gradient(315deg, #ff8932 38%, transparent 25%), linear-gradient(45deg, #ff8932 38%, transparent 25%);
+    background-size: 100px 100px;
+    background-color:#ffc295;
+}
+
+.eventContainer-event {
+	background-color: #181818;
+	height: 340px;
+	width:940px;
+}
+
+.eventContainer-event-title {
+	color: #ff8932;
+	font-size:28px;
+	padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+	padding-bottom: 50px;
+	font-family: sans-serif;
+}
+
+.eventContainer-event-content {
+	color:white;
+	padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+	font-size: 18px;
+}
 
 
 /*GALLERY*/
 
 .container {
 	margin: 0 auto;
+	margin-top:118px;
 	width: calc(100% - 50px);
 	min-width: 400px;
 	padding: 0;
@@ -141,5 +253,41 @@ p {
 
 /*TEAM*/
 
+
+/*QUOTATION*/
+
+
+
+#quotation  {
+	background-color: #ff8932;
+	height: 510px;
+	width:100%;
+}
+
+/* .fas {
+	margin-top: 100px;
+	font-size: 40px;
+} */
+.quote {
+	width:100%;
+	height:100px;
+	color:white;
+}
+
+.quotation-container {
+	display: block;
+    text-align: center;
+    margin-top: 50px;
+    align-items: center
+}
+
+.quotation-text {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.quotation-author {
+	font-size: 24px;
+}
 
 /*CONTACT*/
