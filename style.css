@@ -17,7 +17,6 @@ p {
 	height: 84px;
 	width:100%;
 	background-color: #181818;
-	/* background-color:black; */
 	align-items: center;
     justify-content: space-between;
 	display: flex;
@@ -42,6 +41,7 @@ p {
 	cursor: pointer;
 	transition:2s;
 	font-size: 20px;
+	color:white;
 }
 
 .content-element:hover {
@@ -49,6 +49,15 @@ p {
 	transition:2s;
 }
 
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff8932;
+	transition: 2s;
+}
 
 /*ABOUT*/
 
@@ -92,10 +101,6 @@ p {
 
 .eventContainer {
 	height: 662px;
-	background-color: white;
-	display: flex;
-    justify-content: center;
-	align-items: center;
 	display: flex;
     justify-content: center;
     align-items: center;
@@ -254,39 +259,47 @@ p {
 /*TEAM*/
 
 
-/*QUOTATION*/
+/*QUOTE*/
 
-
-
-#quotation  {
+#quote  {
 	background-color: #ff8932;
 	height: 510px;
 	width:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-/* .fas {
-	margin-top: 100px;
-	font-size: 40px;
-} */
+
 .quote {
 	width:100%;
 	height:100px;
-	color:white;
+	color:#fffff2;
+	line-height:100px !important;
 }
 
-.quotation-container {
+.quote-author {
+	color: #ffdab2;
+	font-family: sans-serif;
+}
+
+.fa-quote-right {
+	font-size: 42px;
+}
+
+.quote-container {
 	display: block;
     text-align: center;
-    margin-top: 50px;
-    align-items: center
+    align-items: center;
 }
 
-.quotation-text {
-	font-size: 30px;
+.quote-text {
+	font-size: 25px;
 	font-weight: bold;
+	font-family: sans-serif;
 }
 
-.quotation-author {
+.quote-author {
 	font-size: 24px;
 }
 
