@@ -1,0 +1,76 @@
+body
+{
+	background:black;
+	color:white;
+}
+
+#contianer
+{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#team
+{
+	color: orange;
+	text-align: center;
+	font-family: Arial;
+	font-size: 20pt;
+	width: 90%;
+	height: 80px;
+}
+
+.photo
+{
+	position: relative; right: 15%;
+	position: relative; bottom: 11%;
+	width: 250px;
+	height: 180px;
+}
+
+.team-up
+{
+	margin: 10px;
+	position: relative; left: 26%;
+	padding: 2%;
+	height: 35%;
+	width: 14%;
+	background-color: #333333;
+	text-align: center;
+}
+
+.team-up:hover {
+	background-color: grey;
+}
+
+.team-down 
+{
+	margin: 10px;
+	position: relative; left: 16%;
+	padding: 2%;
+	height: 35%;
+	width: 14%;
+	background-color: #333333;
+	text-align: center;
+}
+
+.team-down:hover {
+	background-color: grey;
+}
+
+.more
+{
+	background-color: orange;
+	width: 40%;
+	height: 11%;
+	text-align: center;
+	position: relative; left: 30%;
+	line-height: 26px;
+}
+
+.more:active {
+	background-color: #222222;
+}
