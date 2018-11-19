@@ -175,9 +175,15 @@
                     position: Wrocław,
                     map: map
                 });
+                var infowindow = new google.maps.InfoWindow({
+                    content: "Wrocław, Poland"
+                });
+                marker.addListener('click', function() {
+                infowindow.open(map, marker);
+                });
             }
-        </script>
-        <script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJs99ciEyNb-M8JmDZTE3JHnD16AazFjE&callback=initMap">
+        </script> 
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJs99ciEyNb-M8JmDZTE3JHnD16AazFjE&callback=initMap">
         </script>
 
         <footer>
