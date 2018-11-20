@@ -104,6 +104,7 @@ a:hover {
 	display: flex;
     justify-content: center;
     align-items: center;
+	flex-direction: column;
     background: linear-gradient(135deg, #ff8932 35%, transparent 25%) -50px 0, linear-gradient(225deg, #ff8932 35%, transparent 25%) -50px 0, linear-gradient(315deg, #ff8932 38%, transparent 25%), linear-gradient(45deg, #ff8932 38%, transparent 25%);
     background-size: 100px 100px;
     background-color:#ffc295;
@@ -111,7 +112,7 @@ a:hover {
 
 .eventContainer-event {
 	background-color: #181818;
-	height: 340px;
+    /*height: 340px;  wylewa sie!*/
 	width:940px;
 }
 
