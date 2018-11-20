@@ -29,10 +29,10 @@
             <input type: "text" placeholder="Phone">
         </div>
         <div class="grid-item5">
-            <input type: "text" placeholder="Addres">
+            <input  type: "text" placeholder="Addres">
         </div>
-        <div class="grid-item6">
-            <input type: "text" placeholder="Message">
+        <div class="grid-item6" >
+            <input  type: "text" placeholder="Message">
         </div>
         <div class="grid-item7">Send
 
@@ -56,13 +56,22 @@
                 position: Wrocław,
                 map: map
             });
+            var infowindow = new google.maps.InfoWindow({
+                content: "Wrocław, Poland"
+            });
+            marker.addListener('click', function() {
+            infowindow.open(map, marker);
+            });
+
+
         }
     </script>
-    <script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJs99ciEyNb-M8JmDZTE3JHnD16AazFjE&callback=initMap">
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJs99ciEyNb-M8JmDZTE3JHnD16AazFjE&callback=initMap">
     </script>
 
     <footer>
-        <p>Done by team_vikings <a href="https://github.com/BlonskiP/CodersCamp1st">Our Project in GitHub</a></p>
+        <p>Done by team_vikings <a href="https://github.com/BlonskiP/CodersCamp1st">Our Project in GitHub</a></p> 
         <i class="fab fa-facebook-f"></i>
         <i class="fab fa-linkedin-in"></i>
         <i class="fab fa-twitter"></i>

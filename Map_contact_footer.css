@@ -11,17 +11,17 @@ h1 {
     float: left;
     margin-inline-start: 400px;
     margin-inline-end: 650px;
+    margin-top: 100px;
 }
 i {
     margin: 4px;
-    float: left;
-    color: white;
+    display:inline-block
 }
 p {
-    float: left;
-    margin-inline-end: 800px;
+   
+    margin-inline-end: 1000px;
     color: white;
-
+    display:inline-block
 }
 body {
     background-color: rgb(29, 29, 43);
@@ -61,7 +61,6 @@ h3 {
 }
 .grid-item6 {
     margin-bottom: 30 px;
-    
 }
 .grid-item7 {
     border-style: solid;
@@ -71,23 +70,30 @@ h3 {
     background-color: white;
     padding: 13px 0px;
     margin-top: 15px;
+    margin-bottom: 100px;
 }
 .grid-item7:active {
     content: " ";
     position: absolute;
     }
 footer {
-    margin-inline-start: 300px;
-    background-color: white;
-    margin-top: 20px;
+    margin-inline-start: 10px;
+    background-color: rgb(107, 105, 105);
+    margin-top: 100px;
+    padding: 1px;
+    
+
 }
 form {
     display: grid;
-   width: 200px
+    width: 200px;
+    margin: 0 auto;
 }
 .grid-container {
     display: inline-grid;
     grid-template-rows: 30px 30px;
+    margin-top: 100px;
+    position: relative;
     
 }
 input {
@@ -99,3 +105,13 @@ input {
 .grid-item6 > input {
     height: 100px;
    }
+:root {
+    --main-bg-color: rgb(58, 58, 58);
+}
+#wrapper {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+}
