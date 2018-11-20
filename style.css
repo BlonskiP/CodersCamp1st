@@ -118,7 +118,7 @@ a:hover {
 .eventContainer-event {
 	background-color: #181818;
     /*height: 340px;  wylewa sie!*/
-	width:940px;
+	width: 75%;
 }
 
 .eventContainer-event-title {
